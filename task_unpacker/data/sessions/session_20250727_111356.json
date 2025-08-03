@@ -1,0 +1,153 @@
+{
+  "input": "input",
+  "response": [
+    {
+      "id": "task-1753595020674-1",
+      "title": "Research potential funding sources such as investors, grants, or loans.",
+      "description": "Identifying potential funding sources is the first step in raising funds.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Identifying potential funding sources is the first step in raising funds."
+    },
+    {
+      "id": "task-1753595020678-2",
+      "title": "Prepare a pitch deck or business plan to present to potential investors.",
+      "description": "A well-prepared pitch deck is crucial for convincing investors to provide funding.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Research potential funding sources"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Research potential funding sources"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "A well-prepared pitch deck is crucial for convincing investors to provide funding."
+    },
+    {
+      "id": "task-1753595020678-3",
+      "title": "Schedule meetings with potential investors or funding bodies.",
+      "description": "Meetings are necessary to present your funding proposal and secure investments.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Prepare a pitch deck or business plan"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Prepare a pitch deck or business plan"
+      ],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Meetings are necessary to present your funding proposal and secure investments."
+    },
+    {
+      "id": "task-1753595020678-4",
+      "title": "Follow up with investors after meetings to secure commitments.",
+      "description": "Following up can help reinforce interest and move towards closing deals.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Schedule meetings with potential investors or funding bodies"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Schedule meetings with potential investors or funding bodies"
+      ],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Following up can help reinforce interest and move towards closing deals."
+    },
+    {
+      "id": "task-1753595020678-5",
+      "title": "Define the marketing role and responsibilities.",
+      "description": "Clear role definition helps attract the right candidates and sets expectations.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Clear role definition helps attract the right candidates and sets expectations."
+    },
+    {
+      "id": "task-1753595020678-6",
+      "title": "Create a job description and post it on relevant job boards.",
+      "description": "A job description is necessary to attract potential candidates.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Define the marketing role and responsibilities"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Define the marketing role and responsibilities"
+      ],
+      "effort": "Medium",
+      "impact": "Medium",
+      "why_suggested": "A job description is necessary to attract potential candidates."
+    },
+    {
+      "id": "task-1753595020678-7",
+      "title": "Review applications and shortlist candidates.",
+      "description": "Shortlisting helps identify the best candidates for interviews.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Create a job description and post it on relevant job boards"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Create a job description and post it on relevant job boards"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Shortlisting helps identify the best candidates for interviews."
+    },
+    {
+      "id": "task-1753595020678-8",
+      "title": "Conduct interviews with shortlisted candidates.",
+      "description": "Interviews are essential to assess candidates' suitability for the role.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Review applications and shortlist candidates"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Review applications and shortlist candidates"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Interviews are essential to assess candidates' suitability for the role."
+    },
+    {
+      "id": "task-1753595020678-9",
+      "title": "Make an offer to the selected candidate.",
+      "description": "Making an offer is the final step in hiring the right candidate.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Conduct interviews with shortlisted candidates"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Conduct interviews with shortlisted candidates"
+      ],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Making an offer is the final step in hiring the right candidate."
+    }
+  ],
+  "completed": [
+    "task-1753595020674-1"
+  ]
+}

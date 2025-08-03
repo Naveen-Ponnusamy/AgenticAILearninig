@@ -1,0 +1,180 @@
+{
+  "input": "input",
+  "response": [
+    {
+      "id": "task-1753595607564-1",
+      "title": "Research different types of professional car driving (e.g., racing, stunt driving, commercial driving)",
+      "description": "Understanding the different paths can help focus efforts on the most suitable or appealing type of driving.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Understanding the different paths can help focus efforts on the most suitable or appealing type of driving."
+    },
+    {
+      "id": "task-1753595607572-2",
+      "title": "Identify licensing and certification requirements for professional drivers",
+      "description": "Knowing the legal requirements is essential to becoming a professional driver.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Knowing the legal requirements is essential to becoming a professional driver."
+    },
+    {
+      "id": "task-1753595607572-3",
+      "title": "Research top driving schools and training programs",
+      "description": "Quality training is crucial to developing the skills needed to become a pro driver.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Quality training is crucial to developing the skills needed to become a pro driver."
+    },
+    {
+      "id": "task-1753595607572-4",
+      "title": "Enroll in a reputable driving school",
+      "description": "Formal training provides structured learning and practice opportunities.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Research top driving schools and training programs"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Research top driving schools and training programs"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Formal training provides structured learning and practice opportunities."
+    },
+    {
+      "id": "task-1753595607572-5",
+      "title": "Practice driving regularly to build skills and confidence",
+      "description": "Consistent practice is key to mastering driving techniques.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Enroll in a reputable driving school"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Enroll in a reputable driving school"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Consistent practice is key to mastering driving techniques."
+    },
+    {
+      "id": "task-1753595607572-6",
+      "title": "Attend advanced driving courses and workshops",
+      "description": "Advanced courses offer specialized skills that are often necessary for professional driving.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Practice driving regularly to build skills and confidence"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Practice driving regularly to build skills and confidence"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Advanced courses offer specialized skills that are often necessary for professional driving."
+    },
+    {
+      "id": "task-1753595607572-7",
+      "title": "Join professional driving associations or clubs",
+      "description": "Networking with other drivers can provide valuable insights and opportunities.",
+      "priority": "low",
+      "estimatedTime": 2,
+      "subtasks": [],
+      "dueDate": "2025-08-03",
+      "depends_on": [],
+      "effort": "Low",
+      "impact": "Medium",
+      "why_suggested": "Networking with other drivers can provide valuable insights and opportunities."
+    },
+    {
+      "id": "task-1753595607572-8",
+      "title": "Attend industry events and meetups",
+      "description": "Events are great for making connections and learning about industry trends.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Join professional driving associations or clubs"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Join professional driving associations or clubs"
+      ],
+      "effort": "Medium",
+      "impact": "Medium",
+      "why_suggested": "Events are great for making connections and learning about industry trends."
+    },
+    {
+      "id": "task-1753595607572-9",
+      "title": "Gain experience through internships or entry-level driving jobs",
+      "description": "Practical experience is crucial for developing a professional career.",
+      "priority": "high",
+      "estimatedTime": 8,
+      "subtasks": [
+        "Enroll in a reputable driving school"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Enroll in a reputable driving school"
+      ],
+      "effort": "High",
+      "impact": "High",
+      "why_suggested": "Practical experience is crucial for developing a professional career."
+    },
+    {
+      "id": "task-1753595607572-10",
+      "title": "Build a professional portfolio or resume highlighting driving skills and experience",
+      "description": "A strong portfolio can help in securing better job opportunities.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Gain experience through internships or entry-level driving jobs"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Gain experience through internships or entry-level driving jobs"
+      ],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "A strong portfolio can help in securing better job opportunities."
+    },
+    {
+      "id": "task-1753595607573-11",
+      "title": "Apply for professional driving positions or freelance opportunities",
+      "description": "Applying for jobs is the next step towards becoming a professional driver.",
+      "priority": "medium",
+      "estimatedTime": 4,
+      "subtasks": [
+        "Build a professional portfolio or resume highlighting driving skills and experience"
+      ],
+      "dueDate": "2025-08-03",
+      "depends_on": [
+        "Build a professional portfolio or resume highlighting driving skills and experience"
+      ],
+      "effort": "Medium",
+      "impact": "High",
+      "why_suggested": "Applying for jobs is the next step towards becoming a professional driver."
+    }
+  ],
+  "completed": [
+    "task-1753595607564-1",
+    "task-1753595607572-2"
+  ]
+}

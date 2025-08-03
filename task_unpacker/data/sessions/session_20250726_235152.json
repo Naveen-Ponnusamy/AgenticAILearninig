@@ -1,0 +1,95 @@
+{
+  "input": "I need to raise funds and hire someone to help with marketing.",
+  "response": {
+    "goal_summary": "Raise funds and hire a marketing professional to enhance marketing efforts.",
+    "categories": [
+      {
+        "name": "Fundraising",
+        "tasks": [
+          {
+            "task": "Research potential investors and funding sources.",
+            "effort": "Medium",
+            "impact": "High",
+            "depends_on": [],
+            "why_suggested": "Identifying potential investors is crucial to securing funds."
+          },
+          {
+            "task": "Prepare a detailed business plan and pitch deck.",
+            "effort": "High",
+            "impact": "High",
+            "depends_on": [],
+            "why_suggested": "A well-prepared business plan and pitch deck are essential to attract investors."
+          },
+          {
+            "task": "Schedule meetings with potential investors.",
+            "effort": "Medium",
+            "impact": "High",
+            "depends_on": [
+              "Research potential investors and funding sources",
+              "Prepare a detailed business plan and pitch deck"
+            ],
+            "why_suggested": "Direct meetings can help secure commitments from investors."
+          },
+          {
+            "task": "Follow up with investors after meetings.",
+            "effort": "Low",
+            "impact": "Medium",
+            "depends_on": [
+              "Schedule meetings with potential investors"
+            ],
+            "why_suggested": "Following up can help maintain interest and move towards securing funds."
+          }
+        ]
+      },
+      {
+        "name": "Hiring",
+        "tasks": [
+          {
+            "task": "Define the role and responsibilities for the marketing position.",
+            "effort": "Medium",
+            "impact": "High",
+            "depends_on": [],
+            "why_suggested": "Clear role definition is necessary to attract the right candidates."
+          },
+          {
+            "task": "Create a job listing and post on relevant job boards.",
+            "effort": "Medium",
+            "impact": "Medium",
+            "depends_on": [
+              "Define the role and responsibilities for the marketing position"
+            ],
+            "why_suggested": "Posting the job is essential to reach potential candidates."
+          },
+          {
+            "task": "Review applications and shortlist candidates.",
+            "effort": "High",
+            "impact": "High",
+            "depends_on": [
+              "Create a job listing and post on relevant job boards"
+            ],
+            "why_suggested": "Shortlisting helps focus on the most suitable candidates."
+          },
+          {
+            "task": "Conduct interviews with shortlisted candidates.",
+            "effort": "High",
+            "impact": "High",
+            "depends_on": [
+              "Review applications and shortlist candidates"
+            ],
+            "why_suggested": "Interviews are crucial to assess candidates' fit and skills."
+          },
+          {
+            "task": "Make a hiring decision and extend an offer.",
+            "effort": "Medium",
+            "impact": "High",
+            "depends_on": [
+              "Conduct interviews with shortlisted candidates"
+            ],
+            "why_suggested": "Extending an offer is the final step in securing a new hire."
+          }
+        ]
+      }
+    ]
+  },
+  "completed": []
+}

@@ -1,0 +1,7 @@
+streamlit
+langchain
+openai
+python-dotenv
+pymupdf
+fpdf
+python-docx

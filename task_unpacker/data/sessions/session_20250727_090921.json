@@ -1,0 +1,21 @@
+{
+  "input": "I want to launch a digital product for small businesses",
+  "response": {
+    "goal_summary": "Launch a digital product",
+    "categories": [
+      {
+        "name": "Research",
+        "tasks": [
+          {
+            "task": "Identify your target market",
+            "effort": "Medium",
+            "impact": "High"
+          }
+        ]
+      }
+    ]
+  },
+  "completed": [
+    "Research::Identify your target market"
+  ]
+}
